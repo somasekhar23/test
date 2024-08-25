@@ -49,9 +49,9 @@ app.post("/bfhl", (req, res) => {
 
   res.json({
     is_success: true,
-    user_id: "kilaru Soma Sekhar",  // Replace with actual logic to generate user_id
-    email: "somasekhar.21bce7019@vitapstudent.ac.in",         // Replace with actual email logic
-    roll_number: "21BCE7019",        // Replace with actual roll number logic
+    user_id: "kilaru Soma Sekhar",  
+    email: "somasekhar.21bce7019@vitapstudent.ac.in",         
+    roll_number: "21BCE7019",        
     numbers,
     alphabets,
     highest_lowercase_alphabet: highestLowercaseAlphabet
